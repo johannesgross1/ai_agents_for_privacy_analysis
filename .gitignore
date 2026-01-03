@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.envrc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Project-specific: mHealth data
+data/
+data_thesis/
+
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Large batch and result files (optional - uncomment if you don't want to upload)
+# data_thesis/batches/
+# data_thesis/results/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
